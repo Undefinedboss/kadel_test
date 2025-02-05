@@ -1,0 +1,5 @@
+echo "Building package  [$PACKAGE_NAME]"
+
+if [ "$RUN_TESTS" = "true" ]; then
+    echo "running tests"
+fi
